@@ -8,20 +8,20 @@
     <style>
         :root {
             color-scheme: light;
-            --bg: #f6f0e6;
-            --panel: #fff9f0;
+            --bg: white;
+            --panel: white;
             --ink: #241a12;
             --accent: #d9534f;
             --accent-dark: #b13f3b;
             --muted: #7a6a5d;
-            --border: #e7d9c8;
+            --border: black;
         }
         * { box-sizing: border-box; }
         body {
             margin: 0;
             font-family: "Georgia", "Times New Roman", serif;
             color: var(--ink);
-            background: radial-gradient(circle at top, #fff7ec 0%, var(--bg) 55%, #f0e6d8 100%);
+            background: var(--bg);
             min-height: 100vh;
         }
         header {
